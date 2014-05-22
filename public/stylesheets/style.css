@@ -1,5 +1,5 @@
 body {
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 14px "Koenig Type Regular", Helvetica, Arial, sans-serif;
   background-color: #000000;
 }
 
@@ -7,8 +7,14 @@ a {
   color: #00B7FF;
 }
 
+@font-face {
+	font-family: "Koenig Type Regular";
+	src: url('../fonts/Koenigtype-reg.ttf')
+
+}
+
 .main {
-	background-color: #000000;
+	background-color: #0B0B0B;
 }
 
 .img-center {
@@ -17,6 +23,6 @@ a {
     margin-right: auto;
 }
 .header {
-	color: #ffffff;
+	color: rgba(232,122,58, 1); 
 	text-align: center;
 }
